@@ -1,0 +1,24 @@
+base_url = "https://magcurly.github.io"
+title = "Jiahui Zhu"
+description = "Personal website of Jiahui Zhu"
+default_language = "en"
+compile_sass = true
+minify_html = true
+generate_feeds = true
+feed_filenames = ["atom.xml"]
+
+[markdown]
+highlighting = { light_theme = "github-light", dark_theme = "github-dark" }
+
+[extra]
+author = "Jiahui Zhu"
+
+taxonomies = []
+
+[link_checker]
+skip_anchor_prefixes = []
+
+[slugify]
+paths = "on"
+taxonomies = "on"
+anchors = "on"

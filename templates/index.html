@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="hero">
+  <h1>Hi, I'm Jiahui Zhu</h1>
+  <p class="hero-subtitle">
+    Welcome to my personal corner of the internet. I write about things I find interesting and share projects I'm working on.
+  </p>
+  <div class="hero-links">
+    <a href="https://github.com/magcurly" target="_blank" rel="noopener">GitHub</a>
+    <a href="mailto:your@email.com">Email</a>
+  </div>
+</section>
+
+{% set blog = get_section(path="blog/_index.md") %}
+{% if blog.pages | length > 0 %}
+<section class="section">
+  <h2>Recent Posts</h2>
+  <ul class="post-list">
+    {% for page in blog.pages | slice(end=5) %}
+    <li class="post-item">
+      <a href="{{ page.permalink }}">{{ page.title }}</a>
+      <time datetime="{{ page.date }}">{{ page.date | date(format="%Y-%m-%d") }}</time>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+{% endblock %}
