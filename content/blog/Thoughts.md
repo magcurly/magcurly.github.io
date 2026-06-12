@@ -1,6 +1,6 @@
 +++
 title = "Thoughts"
-date = "12-06-2026"
+date = 2026-06-12
 description = "Thoughts communicating with AI"
 +++
 
