@@ -16,9 +16,21 @@
   <nav class="nav">
     <div class="nav-inner">
       <a class="nav-logo" href="{{ config.base_url }}">{{ config.title }}</a>
-      <div class="nav-links">
-        <a href="{{ get_url(path='@/blog/_index.md') }}">Blog</a>
-        <a href="{{ get_url(path='@/about.md') }}">About</a>
+      <div class="nav-end">
+        <div class="nav-links">
+          <a href="{{ get_url(path='@/blog/_index.md') }}">Blog</a>
+          <a href="{{ get_url(path='@/about.md') }}">About</a>
+        </div>
+        {% if config.extra.avatar %}
+        <img
+          class="nav-avatar"
+          src="{{ get_url(path=config.extra.avatar) }}"
+          alt="{{ config.extra.avatar_alt | default(value=config.title) }}"
+          width="40"
+          height="40"
+          decoding="async"
+        >
+        {% endif %}
       </div>
     </div>
   </nav>
