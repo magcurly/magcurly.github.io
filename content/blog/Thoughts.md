@@ -1,5 +1,6 @@
 +++
 title = "Thoughts"
+date = "Rolling"
 description = "Thoughts communicating with AI"
 +++
 
