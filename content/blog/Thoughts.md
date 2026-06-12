@@ -1,6 +1,6 @@
 +++
 title = "Thoughts"
-date = "Rolling"
+date = "12-06-2026"
 description = "Thoughts communicating with AI"
 +++
 
