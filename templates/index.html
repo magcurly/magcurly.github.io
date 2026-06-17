@@ -19,11 +19,17 @@
   <ul class="post-list">
     {% for page in blog.pages | slice(end=5) %}
     <li class="post-item">
-      <a href="{{ page.permalink }}">{{ page.title }}</a>
-      <time datetime="{{ page.date }}">{{ page.date | date(format="%Y-%m-%d") }}</time>
+      <a class="post-item-link" href="{{ page.permalink }}">
+        <span class="post-title">{{ page.title }}</span>
+        {% if page.description %}
+        <span class="post-desc">{{ page.description }}</span>
+        {% endif %}
+        <time class="post-date" datetime="{{ page.date }}">{{ page.date | date(format="%Y-%m-%d") }}</time>
+      </a>
     </li>
     {% endfor %}
   </ul>
+  <a class="view-all" href="{{ get_url(path='@/blog/_index.md') }}">View all posts →</a>
 </section>
 {% endif %}
 {% endblock %}

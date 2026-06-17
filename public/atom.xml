@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Jiahui Zhu</title>
+    <subtitle>Personal website of Jiahui Zhu</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://magcurly.github.io/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://magcurly.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-06-12T00:00:00+00:00</updated>
+    <id>https://magcurly.github.io/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Thoughts</title>
+        <published>2026-06-12T00:00:00+00:00</published>
+        <updated>2026-06-12T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://magcurly.github.io/blog/thoughts/"/>
+        <id>https://magcurly.github.io/blog/thoughts/</id>
+        
+        <content type="html" xml:base="https://magcurly.github.io/blog/thoughts/">&lt;h2 id=&quot;12-06-2026&quot;&gt;12-06-2026&lt;&#x2F;h2&gt;
+&lt;p&gt;Today I received news that my paper has been principally accepted by &lt;em&gt;Nature Communications&lt;&#x2F;em&gt;. I should feel elated. And somewhere beneath everything, maybe I do — a little.&lt;&#x2F;p&gt;
+&lt;p&gt;But mostly I feel released.&lt;&#x2F;p&gt;
+&lt;p&gt;This project started in May 2023 with genuine excitement. This is the first time I can get in touch with new extreme environment. I was enthusiastic when I took that job.&lt;&#x2F;p&gt;
+&lt;p&gt;Then came the collaboration. I won&#x27;t go into detail, but the experience wore me down in ways that are hard to articulate. I felt being bullied by the collaborator. First, I was forced to drink alcohol which I am really unhappy about since I am really worried about getting into allergy. Afterwards, I was forced to explain the result in a way I was not showing my consent with my expertise perspective. The final paper — the one that got accepted — is not the paper I set out to write. It&#x27;s not something I feel I can fully call mine. Although most of the results remained as the manuscript I wrote in 2023, how they were described is not the way I want.&lt;&#x2F;p&gt;
+&lt;p&gt;Maybe that&#x27;s okay. Maybe this is just what finishing things sometimes looks like — not a triumphant finish line, but a quiet, complicated exhale. The work is done.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Hello World</title>
+        <published>2026-03-30T00:00:00+00:00</published>
+        <updated>2026-03-30T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://magcurly.github.io/blog/hello-world/"/>
+        <id>https://magcurly.github.io/blog/hello-world/</id>
+        
+        <content type="html" xml:base="https://magcurly.github.io/blog/hello-world/">&lt;p&gt;Welcome to my new website! I&#x27;ve rebuilt it using &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;&quot;&gt;Zola&lt;&#x2F;a&gt;, a blazing-fast static site generator written in Rust.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;why-zola&quot;&gt;Why Zola?&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Fast&lt;&#x2F;strong&gt;: Built in Rust, Zola compiles sites in milliseconds&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Simple&lt;&#x2F;strong&gt;: No dependencies, single binary, straightforward templating&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Flexible&lt;&#x2F;strong&gt;: Sass compilation, syntax highlighting, and feeds built-in&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;More posts coming soon. Stay tuned!&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
